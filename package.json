@@ -1,8 +1,7 @@
 {
   "name": "ct-azure-function",
   "version": "1.0.0",
-  "main": "dist/functions/*.js",
-  "scripts": {
+   "scripts": {
     "build": "tsc",
     "start": "func start",
     "dev": "npm run build && func start"
@@ -21,3 +20,5 @@
     "typescript": "^5.0.0"
   }
 }
+ 
+ 
